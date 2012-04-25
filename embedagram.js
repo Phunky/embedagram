@@ -119,6 +119,6 @@
 
 		}
 
-		typeof jQuery != "undefined" ? Embedagram.embed() : Embedagram.jquery();
+		typeof jQuery != "undefined" ? Embedagram.check() : Embedagram.jquery();
 
 	})()
