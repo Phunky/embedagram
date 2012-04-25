@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Terminal+Dosis:800,400'>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+	<style type="text/css">
+		#embedagram-photos {
+			text-align: center;
+		}
+
+		#embedagram-photos .gram {
+			display: inline-block;
+		}
+
+		#embedagram-photos .gram a img {
+			vertical-align: middle;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<section id="demo">
+			<div class="page-header">
+				<h1>embedagram <small>a simple way to add instagram photos to your website.</small></h1>
+			</div>
+			<div class="row">
+				<div class="span12">
+					<script id="embedagram" type="text/javascript" src="embedagram.js" data-username="phunky" data-count="12"></script>
+				</div>
+			</div>	
+		</section>
+
+		<section id="code">
+			<div class="row">
+				<div class="span10 offset1">
+					<h3>Add your own instagram photos to your site couldn't be any simpler.</h3>
+					
+					<p>Just place the code below wherever you want your photos to appear on your website, don't forget to change data-username to your instagram username and data-count to the number of photos you wish to display. Then all that's left to do is too add some styling for your photos to fit you website.</p>
+					
+					<textarea class="span10" rows="2">&lt;script id="embedagram" type="text/javascript" src="http://labs.phunky.co.uk/embedagram/embedagram.js" data-username="phunky" data-count="12" /&gt;&lt;/script&gt;</textarea>
+
+					<p>This inital release does not include any example styling options other than the css used on this site, currently the markup used is very simple and I would like to wait to see how people utilise embedagram before offering up styles. If you would like to share you own styling with other users please let me know and i'll include a link on the site.</p>
+
+					<h5>This was <a href="http://madebyphunky.com">madebyphunky</a> follow me on twitter <a href="http://twitter.com/madebyphunky" target="_blank">@madebyphunky</a> <a href="http://twitter.com/irphunky" target="_blank">@irPhunky</a></h5>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-1832237-5']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+</body>
+</html>
